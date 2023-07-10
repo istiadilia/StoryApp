@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/cream"
-    tools:context=".ui.register.RegisterActivity">
+    tools:context=".view.activity.RegisterActivity">
 
     <ImageView
         android:id="@+id/storyAppLogo"
@@ -25,14 +25,14 @@
         android:layout_marginTop="24dp"
         android:layout_marginStart="22dp"
         android:layout_marginEnd="22dp"
-        android:text="Nama"
+        android:text="@string/name_text_view"
         android:textSize="20sp"
         android:fontFamily="@font/interbold"
         app:layout_constraintTop_toBottomOf="@id/storyAppLogo"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="22dp" />
 
-    <EditText
+    <com.example.mystoryapp.view.customview.NameEditText
         android:id="@+id/ed_register_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -53,14 +53,14 @@
         android:layout_marginTop="16dp"
         android:layout_marginStart="22dp"
         android:layout_marginEnd="22dp"
-        android:text="Email"
+        android:text="@string/email_text_view"
         android:textSize="20sp"
         android:fontFamily="@font/interbold"
         app:layout_constraintTop_toBottomOf="@id/ed_register_name"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="22dp" />
 
-    <com.example.mystoryapp.customview.EmailEditText
+    <com.example.mystoryapp.view.customview.EmailEditText
         android:id="@+id/ed_register_email"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -79,14 +79,14 @@
         android:layout_marginTop="16dp"
         android:layout_marginStart="22dp"
         android:layout_marginEnd="22dp"
-        android:text="Password"
+        android:text="@string/password_text_view"
         android:textSize="20sp"
         android:fontFamily="@font/interbold"
         app:layout_constraintTop_toBottomOf="@id/ed_register_email"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="22dp" />
 
-    <com.example.mystoryapp.customview.PassEditText
+    <com.example.mystoryapp.view.customview.PassEditText
         android:id="@+id/ed_register_password"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -111,6 +111,21 @@
         app:layout_constraintEnd_toEndOf="@+id/ed_register_password"
         app:layout_constraintStart_toStartOf="@+id/ed_register_password"
         app:layout_constraintTop_toBottomOf="@+id/ed_register_password" />
+
+    <TextView
+        android:id="@+id/to_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:text="@string/to_login"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/interregular"
+        app:layout_constraintTop_toBottomOf="@id/btn_register"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="22dp" />
 
     <ProgressBar
         android:id="@+id/progress_bar"

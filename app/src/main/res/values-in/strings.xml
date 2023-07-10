@@ -34,7 +34,32 @@
     <string name="btn_add_camera_text">Kamera</string>
     <string name="btn_login_text">Masuk</string>
     <string name="btn_register_text">Daftar</string>
-    <string name="input_email">Masukkan email</string>
-    <string name="input_pass">Masukkan password</string>
-    <string name="input_name">Masukkan nama</string>
+
+    <string name="maps">Peta</string>
+    <string name="email_text_view">Email</string>
+    <string name="password_text_view">Password</string>
+    <string name="name_text_view">Nama</string>
+    <string name="to_login">Sudah punya akun? Masuk</string>
+    <string name="retry_story">Muat Ulang</string>
+    <string name="name">Masukkan nama</string>
+    <string name="name_required">Nama dibutuhkan!</string>
+    <string name="require_email"><![CDATA[Email dibutuhkan! >:(]]></string>
+    <string name="title_add_story">Tambah Story</string>
+    <string name="title_detail_story">Detail Story</string>
+    <string name="posted_by">Ditambahkan oleh %1$s</string>
+    <string name="data_incorrect">Data tidak valid!</string>
+    <string name="maps_story">Lihat Peta</string>
+
+    <string name="insert_email">Masukkan email</string>
+    <string name="pass_hint">Masukkan kata sandi</string>
+    <string name="name_hint">Masukkan nama</string>
+
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satelit</string>
+    <string name="terrain_type">Medan</string>
+    <string name="hybrid_type">Hibrida</string>
+
+    <string name="story_success_added">Story berhasil dibuat</string>
+    <string name="insert_picture">Gambar tidak boleh kosong</string>
+    <string name="insert_desc">Deskripsi tidak boleh kosong</string>
 </resources>

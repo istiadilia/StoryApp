@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:transitionGroup="true"
     android:background="@color/cream"
-    tools:context=".ui.story.DetailStoryActivity">
+    tools:context=".view.activity.DetailActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -29,9 +29,10 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:layout_margin="16dp"
-            android:textSize="22sp"
+            android:textSize="18sp"
             android:text="@string/nama"
-            android:textColor="@color/black"
+            android:textColor="@color/darkbrown"
+            android:fontFamily="@font/interbold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/iv_detail_photo" />
@@ -46,8 +47,20 @@
             android:textSize="18sp"
             android:textColor="@color/black"
             android:text="@string/description"
+            android:fontFamily="@font/intermedium"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_detail_name" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/iv_detail_photo" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

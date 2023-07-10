@@ -10,6 +10,7 @@
     <string name="unauthorized">Please check again your email and password</string>
     <string name="to_register">Haven\'t had an account? Register here</string>
     <string name="logout">Logout</string>
+    <string name="maps">Maps</string>
     <string name="nama">Name</string>
     <string name="description">Description</string>
     <string name="photo">photo</string>
@@ -18,7 +19,10 @@
     <string name="choose_picture">Choose a picture</string>
     <string name="package_name">com.example.mystoryapp</string>
     <string name="message">"Message : "</string>
+
     <string name="add_story">Add Story</string>
+    <string name="maps_story">See Maps</string>
+
     <string name="invalid_email">Email is invalid</string>
     <string name="pass_length">Password should have at least 8 characters</string>
     <string name="user_create">User created</string>
@@ -30,11 +34,34 @@
     <string name="change_language">Change Language</string>
     <string name="button_add_text">Upload</string>
     <string name="ed_add_description_hint">Add photo description</string>
+
     <string name="btn_add_gallery_text">Gallery</string>
     <string name="btn_add_camera_text">Camera</string>
     <string name="btn_login_text">Login</string>
     <string name="btn_register_text">Register</string>
-    <string name="input_email">Input email</string>
-    <string name="input_pass">Input password</string>
-    <string name="input_name">Input name</string>
+    <string name="to_login">Already have an account? Login</string>
+    <string name="retry_story">Retry</string>
+    <string name="name">Insert name</string>
+    <string name="name_required">Name required!</string>
+    <string name="require_email"><![CDATA[Email required! >:(]]></string>
+    <string name="title_add_story">Add Story</string>
+    <string name="title_detail_story">%1$s\'s Story</string>
+    <string name="posted_by">Added by %1$s</string>
+    <string name="data_incorrect">Invalid input!/</string>
+
+    <string name="insert_email">Input your email</string>
+    <string name="pass_hint">Input your password</string>
+    <string name="name_hint">Input your name</string>
+    <string name="email_text_view">Email</string>
+    <string name="password_text_view">Password</string>
+    <string name="name_text_view">Name</string>
+
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satellite</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+
+    <string name="story_success_added">Story created successfully</string>
+    <string name="insert_picture">Image can\'t be empty.</string>
+    <string name="insert_desc">Description can\'t be empty.</string>
 </resources>
